@@ -1,1 +1,16 @@
+name: DemoCypress-e2e
 
+on: push
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: install Cypress
+        uses: npm install
+      - name: cypress run
+        uses: cypress-io/github-actions@v6
+        with:
+          browser: chrome
