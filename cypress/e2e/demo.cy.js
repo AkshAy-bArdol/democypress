@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 
-describe('Login Page', () => {
+describe('Login Page Testing', () => {
     beforeEach(function () {
         cy.viewport(1920, 1080);
         cy.visit('https://www.lambdatest.com/selenium-playground/');
