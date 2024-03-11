@@ -20,7 +20,7 @@ describe('Login Page Testing', () => {
         cy.get('.modal-body > p').should('contain', 'This is the place where the content for the modal dialog displays');
         cy.get('.modal-footer .btn-dark').eq(0).click();
     })
-    it('Download Progress Demo test', () => {
+    it('Download Progress Demo test1', () => {
         cy.get('.pt-10 > a').eq(6).should('be.visible').click();
         cy.get('.progress .counter').should('contain', '0%');
         cy.get('button[id="dwnBtn"]').should('be.visible').click();
