@@ -16,6 +16,6 @@ jobs:
           browser: chrome
           record: true
         env:
-          CYPRESS_RECORD_KEY: ${{secrets.CYPRESS_RECORD_KEY}}
+          CYPRESS_RECORD_KEY: ${{secrets.NEW_KEY}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
