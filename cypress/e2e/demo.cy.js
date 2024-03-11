@@ -11,6 +11,7 @@ describe('Login Page Testing', () => {
         cy.get('input[id="birthday"]').type('2024-02-02');
         cy.get('input[placeholder="Start date"]').type('02/02/2024');
         cy.get('input[placeholder="End date"').type('02/02/2024');
+ 
     })
 
     it('Modals test', () => {
