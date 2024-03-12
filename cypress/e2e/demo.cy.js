@@ -26,7 +26,7 @@ describe('Login Page Testing', () => {
         cy.get('.progress .counter').should('contain', '0%');
         cy.get('button[id="dwnBtn"]').should('be.visible').click();
         cy.wait(5000)
-        cy.get('.success ').should('contain', 'Downloaaad completed!')
+        cy.get('.success ').should('contain', 'Download completed!')
     })
 
 })
